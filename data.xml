@@ -1,0 +1,2965 @@
+<valcr>
+  <block id="COMP_DISP_TM"       head="2:16" col="26:39">
+    <begin>C O M P L E X   D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="COMP_ACC_T3"       head="2:14" col="56:69" complex="1">
+    <begin>C O M P L E X   A C C E L E R A T I O N   V E C T O R</begin>
+  </block>
+  <block id="COMP_VEL_T3"       head="2:14" col="56:69" complex="1">
+    <begin>C O M P L E X   V E L O C I T Y   V E C T O R</begin>
+  </block>
+  <block id="PEAK_PRES"          head="2:15" col="116:128">
+    <begin>P E A K   A C C E L E R A T I O N S   A N D   P R E S S U R E S</begin>
+  </block>
+  <block id="COMP_AC_PRESS"      head="2:14" col="50:63">
+    <begin>C O M P L E X   A C O U S T I C   R E S U L T S</begin>
+  </block>
+  <block id="AC_PEAK"            head="2:12" col="119:131">
+    <begin>( P  E  A  K )</begin>
+  </block>
+  <block id="REAL_EIGEN_HZ"      head="2:8"  col="67:78">
+    <begin>R E A L   E I G E N V A L U E S</begin>
+  </block>
+  <block id="REAL_EIGEN"      head="2:8"  col="26:38">
+    <begin>R E A L   E I G E N V A L U E S</begin>
+  </block>
+  <block id="COMP_EIGEN_HZ"      head="20:23"  col="84:97">
+      <begin>C O M P L E X   E I G E N V A L U E   S U M M A R Y</begin>
+  </block>
+   <block id="COMP_AC_DISP"       head="2:14" col="50:63">
+    <begin>C O M P L E X   A C O U S T I C   R E S U L T S</begin>
+  </block>
+   <block id="FETGRAD_X"       head="2:13" col="30:42">
+      <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D</begin>
+  </block>
+   <block id="FETFLUX_X"       head="2:13" col="81:93">
+        <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D</begin>
+  </block>
+  <block id="FETFLUX_Y"       head="2:13" col="98:110"> 
+          <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D</begin>
+  </block>   
+  <block id="FETFLUX_Z"       head="2:13" col="115:127">
+          <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D</begin>
+  </block>  
+  <block id="COMP_DISP_T1"       head="2:14" col="26:39" complex="1">
+    <begin>C O M P L E X   D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="COMP_DISP_T3"       head="2:14" col="56:69" complex="1">
+    <begin>C O M P L E X   D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="COMP_DISP_R1"       head="2:14" col="71:84" complex="1">
+    <begin>C O M P L E X   D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="COMP_DISP_R2"       head="2:14" col="86:99" complex="1">
+    <begin>C O M P L E X   D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="COMP_DISP_R3"       head="2:14" col="101:114" complex="1">
+    <begin>C O M P L E X   D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="ERP"                head="6:17" col="28:40">
+    <begin>E Q U I V A L E N T  R A D I A T E D  P O W E R</begin>
+  </block>
+  <block id="ERP_1"                head="20:32" col="43:55">
+    <begin>E Q U I V A L E N T  R A D I A T E D  P O W E R</begin>
+  </block>
+  <block id="PRES_MAG"           head="2:14" col="50:63">
+    <begin>C O M P L E X   A C O U S T I C   R E S U L T S</begin>
+	</block>
+  <block id="DISP_T1"                head="2:16" col="26:40">
+    <begin>D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="DISP_T2"                head="2:16" col="41:55">
+    <begin>D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="DISP_T3"                head="2:16" col="56:70">
+      <begin>D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="DISP_R1"                head="2:16" col="71:85">
+    <begin>D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="DISP_R2"                head="2:16" col="86:100">
+    <begin>D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="DISP_R3"                head="2:16" col="101:115">
+      <begin>D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="VEL_T3"                head="2:16" col="56:70">
+    <begin>V E L O C I T Y    V E C T O R</begin>
+  </block>  
+  <block id="ACCE_VEC_T1"                head="2:16" col="26:40">
+    <begin>A C C E L E R A T I O N    V E C T O R</begin>
+  </block>
+  <block id="ACCE_VEC_T2"                head="2:16" col="41:55">
+    <begin>A C C E L E R A T I O N    V E C T O R</begin>
+  </block>
+  <block id="ACCE_VEC_T3"                head="2:16" col="56:70">
+      <begin>A C C E L E R A T I O N    V E C T O R</begin>
+  </block>
+  <block id="ACCE_VEC_R1"                head="2:16" col="71:85">
+    <begin>A C C E L E R A T I O N    V E C T O R</begin>
+  </block>
+  <block id="ACCE_VEC_R2"                head="2:16" col="86:100">
+    <begin>A C C E L E R A T I O N    V E C T O R</begin>
+  </block>
+  <block id="ACCE_VEC_R3"                head="2:16" col="101:115">
+      <begin>A C C E L E R A T I O N    V E C T O R</begin>
+  </block>  
+  <block id="DISP_R1"                head="2:16" col="71:85">
+    <begin>D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="GLUE_NORM"          head="3:13" col="26:38">
+    <begin>G L U E  N O R M A L  A N D  I N - P L A N E  T R A C T I O N S</begin>
+  </block>
+  <block id="MAT10_BULK"      head="45:56"  col="57:68">
+    <begin>MAT10</begin>
+  </block>
+  <block id="MAT10_RHO"      head="45:56"  col="69:80">
+    <begin>MAT10</begin>
+  </block>
+  <block id="MAT10_C"      head="45:56"  col="81:92">
+    <begin>MAT10</begin>
+  </block>
+  <block id="NLSTRESS_CONROD_EQ"    head="2:11" col="37:50">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   R O D   E L E M E N T S      ( C O N R O D )</begin>
+  </block> 
+  <block id="NLSTRESS_CONROD_TOTSTRN"    head="2:11" col="57:70">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   R O D   E L E M E N T S      ( C O N R O D )</begin>
+  </block> 
+  <block id="NLSTRESS_CROD_EQ"      head="2:11" col="37:50">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   R O D   E L E M E N T S      ( C R O D )</begin>
+  </block> 
+  <block id="NLSTRESS_CROD_TOTSTRN"      head="2:11" col="57:70">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   R O D   E L E M E N T S      ( C R O D )</begin>
+  </block> 
+  <block id="NLSTRESS_CTUBE_EQ"     head="2:11" col="37:50">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   R O D   E L E M E N T S      ( C T U B E )</begin>
+  </block> 
+  <block id="NLSTRESS_CTUBE_TOTSTRN"     head="2:11" col="57:70">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   R O D   E L E M E N T S      ( C T U B E )</begin>
+  </block> 
+  <block id="NLSTRESS_HEXA_EQ"      head="2:11" at1_grid="20:24" col="96:107">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLSTRESS_TETRA_EQ"      head="2:11" at1_grid="19:24" col="96:107">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T E T R A H E D R O N   S O L I D   E L E M E N T S   ( T E T R A )</begin>
+  </block>
+  <block id="NLSTRESS_CT6_EQ"      head="8:12" at1_point="23:29" col="89:103">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   C T R A X 6   E L E M E N T S</begin>
+  </block>
+  <block id="NLSTRESS_CQ8_EQ"      head="8:12" at1_point="25:28" col="89:103">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   C Q U A D X 8   E L E M E N T S</begin>
+  </block>
+  <block id="NLSTRESS_QUAD_EQ"      head="2:12" at1_grid="18:21" col="82:96">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T S 4 )</begin>
+  </block>
+  <block id="NLSTRESS_QUADN_EQ"      head="2:12" at1_grid="16:21" col="82:96">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_QUADN4_VM"      head="2:12" at1_grid="16:21" col="97:111">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_QUADN4_X"      head="2:12" at1_grid="16:21" col="25:37">
+  <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_QUADN4_Y"      head="2:12" at1_grid="16:21" col="43:55">
+  <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T N 4 )</begin>
+  </block>
+    <block id="STRESS_QUADN4_Z"      head="2:12" at1_grid="16:21" col="61:73">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T N 4 )</begin>
+  </block>  
+  <block id="STRESS_QUADS4_VM"      head="2:12" at1_grid="16:21" col="97:111">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T S 4 )</begin>
+  </block>
+  <block id="STRESS_QUADS4_X"      head="2:12" at1_grid="15:22" col="25:37">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T S 4 )</begin>
+  </block>  
+   <block id="STRESS_QUADS4_Z"      head="2:12" at1_grid="15:22" col="61:73">
+      <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T S 4 )</begin>
+  </block>
+  <block id="STRESS_QUAD4_VM"      head="2:10" at1_fibd="12:26" col="118:132">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block>
+  <block id="STRESS_QUADN8_VM"      head="2:12" at1_grid="16:21" col="97:111">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_QUADS8_VM"      head="2:12" at1_grid="16:21" col="97:111">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_CQ8_EQ"      head="8:12" at1_point="15:22" col="106:120">
+    <begin>S T R E S S E S   I N   C Q U A D X 8   E L E M E N T S</begin>
+  </block>
+  <block id="STRESS_QUAD8_VM"      head="2:12" at1_grid="16:21" col="119:133">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block>
+  <block id="NLSTRESS_QUAD_EQ_1"      head="2:12" at1_fibd="14:27" col="88:102">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D 4 )</begin>
+  </block>
+  <block id="NLSTRAIN_QUAD4_X"      head="2:12" at1_fibd="14:27"  col="28:40" complex="1">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D 4 )</begin>
+  </block>
+  <block id="NLSTRESS_QUAD8_EQ"      head="2:12" at1_grid="17:21"  at2_fibd="22:35" col="91:104">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D 8 )</begin>
+  </block>
+  <block id="NLSTRESS_QUADS8_EQ"      head="2:12" at1_grid="15:21" col="82:96">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T S 8 )</begin>
+  </block>
+  <block id="NLSTRESS_TRIAS6_EQ"      head="2:12" at1_grid="15:21" col="82:96">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C P L S T S 6 )</begin>
+  </block>
+  <block id="NLSTRESS_QUADS__HYP_VOLS"      head="22:27" col="103:117">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H Y P E R E L A S T I C   Q U A D R I L A T E R A L   E L E M E N T S  ( CPLSTS4 )</begin>
+  </block>
+  <block id="NLSTRESS_QUADS__HYP_PRESS"      head="2:12" at1_point="22:27"  col="88:102">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H Y P E R E L A S T I C   Q U A D R I L A T E R A L   E L E M E N T S  ( CPLSTS4 )</begin>
+  </block>
+  <block id="NLSTRESS_QUADN__HYP_VOLS"      head="22:27" col="103:117">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H Y P E R E L A S T I C   Q U A D R I L A T E R A L   E L E M E N T S  ( CPLSTN4 )</begin>
+  </block>
+  <block id="NLSTRESS_QUADN__HYP_PRESS"      head="2:12" at1_point="22:27"  col="88:102">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H Y P E R E L A S T I C   Q U A D R I L A T E R A L   E L E M E N T S  ( CPLSTN4 )</begin>
+  </block>
+  <block id="NLSTRESS_HEX__HYP_VOLS"      head="2:12" at1_point="22:25" col="96:108">
+    <begin>N L   S T R E S S E S   I N   H Y P E R E L A S T I C   H E X A H E D R O N   E L E M E N T S  ( HEXA8FD )</begin>
+  </block>
+  <block id="NLSTRESS_HEX__HYP_VOLS_1"      head="2:9" at1_point="20:23" col="108:120">
+    <begin>N L   S T R E S S E S   I N   H Y P E R E L A S T I C   H E X A H E D R O N   E L E M E N T S  ( HEXA8FD )</begin>
+  </block>
+  <block id="NLSTRESS_HEX__HYP_PRESS"      head="2:12" at1_point="22:27" col="96:107">
+    <begin>N L   S T R E S S E S   I N   H Y P E R E L A S T I C   H E X A H E D R O N   E L E M E N T S  ( HEXA8FD )</begin>
+  </block>
+  <block id="NLSTRESS_PYRAM_XX"      head="2:8" at1_point="16:22" col="24:34">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRESS_PYRAM_YY"      head="2:8" at1_point="16:22" col="36:46">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRESS_PYRAM_ZZ"      head="2:8" at1_point="16:22" col="48:58">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRESS_PYRAM_EQ"      head="2:8" at1_point="16:22" col="96:106">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRAIN_PYRAM_X"      head="2:8" at1_point="16:22" complex="1" col="24:34">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRAIN_PYRAM_Y"      head="2:8" at1_point="16:22" complex="1" col="36:46">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRAIN_PYRAM_Z"      head="2:8" at1_point="16:22" complex="1" col="48:58">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRESS_PYRAM_PS"      head="2:8" at1_point="16:22" col="108:118">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRESS_PYRAM_CS"      head="2:8" at1_point="16:22" col="120:130">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="NLSTRESS_PENTA_EQ"      head="2:8" at1_point="16:22" col="96:107">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="NLSTRESS_PENTA_PS"      head="2:8" at1_point="16:22" col="108:119">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="NLSTRESS_PENTA_CS"      head="2:8" at1_point="16:22" col="120:130">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="STRESS_HEXA__NX"      head="2:12" at1_grid="17:22" col="28:40">
+    <begin>S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S   ( H E X A )</begin>
+  </block>
+  <block id="STRESS_HEXA__VM"      head="2:12" at1_grid="17:24" col="116:130">
+    <begin>S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S   ( H E X A )</begin>
+  </block>
+  <block id="STRESS_HEXA__NY"      head="2:13" at1_point="29:35" col="49:61">
+    <begin>S T R E S S E S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="STRESS_HEXA__NZ"      head="2:13" at1_point="29:35" col="63:75">
+    <begin>S T R E S S E S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="STRESS_LCHEXA__VM"      head="7:10" at1_ply="15:18" at2_fibl="22:24" at3_edge="27:33" col="119:131">
+  <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( H E X A )</begin>
+  </block>
+  <block id="FI_LCHEXA__V1"      head="7:10" at1_ply="15:18" at2_fibl="22:24" at3_edge="27:33" at4_ft="36:41" col="43:53">
+    <begin>F A I L U R E   I N D I C E S   F O R   L A Y E R E D   C O M P O S I T E   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="STRESS_TRIN3__VM"      head="2:12" col="88:102">
+  <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( C P L S T N 3 )</begin>
+  </block>
+  <block id="STRESS_TRIS3__VM"      head="2:12" col="88:102">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( C P L S T S 3 )</begin>
+  </block>
+  <block id="STRESS_TRIA3__VM"      head="2:12" at1_fibd="12:26" col="118:133">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="STRESS_TRIN6__VM"      head="2:12" at1_grid="15:22" col="97:111">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( C P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_TRIS6__VM"      head="2:12" at1_grid="15:22" col="97:111">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( C P L S T S 6 )</begin>
+  </block>
+  <block id="STRESS_TRIA6__VM"      head="2:12" at1_grid="15:22" col="119:133">
+  <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block>
+  <block id="NLSTRESS_HEX__HYP_VOLS"      head="19:24" col="106:120">
+  <begin>N L   S T R E S S E S   I N   H Y P E R E L A S T I C   H E X A H E D R O N   E L E M E N T S  ( HEXA8FD )</begin>
+  </block>
+  <block id="CONT_F_T2"      head="2:16" col="41:55">
+    <begin>C O N T A C T  F O R C E S</begin>
+  </block>
+  <block id="CONT_F_T3"      head="2:16" col="56:70">
+    <begin>C O N T A C T  F O R C E S</begin>
+  </block>
+  <block id="TEMP_VEC"      head="2:16" col="26:40">
+    <begin>T E M P E R A T U R E   V E C T O R</begin>
+  </block>
+  <block id="CONT_PR_TR"      head="2:14" col="26:38">
+    <begin>C O N T A C T  P R E S S U R E  A N D  T R A C T I O N S</begin>
+  </block>
+  <block id="NLSTRESS_HEXA_EQ"    head="2:10" at1_grid="18:23" col="95:106" >
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="LCSTRESS_PENTA_VM"    head="7:10" at1_ply="15:18" at2_fiber="22:24" at3_edge="27:33" col="119:131" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="CFORC_SCSPR1_RE"      head="10:22" col="23:41">
+    <begin>C O M P L E X   F O R C E S   I N   S C A L A R   S P R I N G S   ( C E L A S 1 )</begin>
+  </block>
+  <block id="CFORC_SCSPR1_IM"      head="10:22" col="45:57">
+    <begin>C O M P L E X   F O R C E S   I N   S C A L A R   S P R I N G S   ( C E L A S 1 )</begin>
+  </block>
+  <block id="CFORC_SCSPR2_RE"      head="10:22" col="23:41">
+    <begin>C O M P L E X   F O R C E S   I N   S C A L A R   S P R I N G S   ( C E L A S 2 )</begin>
+  </block>
+  <block id="CFORC_SCSPR2_IM"      head="10:22" col="45:57">
+    <begin>C O M P L E X   F O R C E S   I N   S C A L A R   S P R I N G S   ( C E L A S 2 )</begin>
+  </block>
+  <block id="CFORC_SCSPR3_RE"      head="10:22" col="23:41">
+    <begin>C O M P L E X   F O R C E S   I N   S C A L A R   S P R I N G S   ( C E L A S 3 )</begin>
+  </block>
+  <block id="CFORC_SCSPR3_IM"      head="10:22" col="45:57">
+    <begin>C O M P L E X   F O R C E S   I N   S C A L A R   S P R I N G S   ( C E L A S 3 )</begin>
+  </block>
+  <block id="CFORC_SCSPR4_RE"      head="10:22" col="23:41">
+    <begin>C O M P L E X   F O R C E S   I N   S C A L A R   S P R I N G S   ( C E L A S 4 )</begin>
+  </block>
+  <block id="CFORC_SCSPR4_IM"      head="10:22" col="45:57">
+    <begin>C O M P L E X   F O R C E S   I N   S C A L A R   S P R I N G S   ( C E L A S 4 )</begin>
+  </block>
+  <block id="ELEM_PROP_VOL"      head="1:6" col="60:73">
+    <begin>E L E M E N T   P R O P E R T Y   S U M M A R Y     (BY ELEMENT TYPE / ID)</begin>
+  </block>
+  <block id="ELEM_PROP_SMAS"      head="1:6" col="73:86">
+    <begin>E L E M E N T   P R O P E R T Y   S U M M A R Y     (BY ELEMENT TYPE / ID)</begin>
+  </block>
+  <block id="ELEM_PROP_NSMAS"      head="1:6" col="86:99">
+    <begin>E L E M E N T   P R O P E R T Y   S U M M A R Y     (BY ELEMENT TYPE / ID)</begin>
+  </block>
+  <block id="LCSTRESS_HEXA_VM"    head="1:10" at1_ply="15:18" at2_fiber="22:24" at3_edge="27:33" col="119:131" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( H E X A )</begin>
+  </block>
+  <block id="LCSTRESS_HEXA_VM_LG"    head="2:12" at1_ply="17:20" at2_fiber="24:26" at3_edge="29:35" col="121:133" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( H E X A )</begin>
+  </block>
+  <block id="MIN_INT_ANGLE"                head="18:22" col="28:34">
+    <begin>TOLERANCE LIMITS ARE:</begin>
+  </block>
+  <block id="MAX_INT_ANGLE"                head="18:22" col="45:52">
+    <begin>TOLERANCE LIMITS ARE:</begin>
+  </block>
+  <block id="MIN_EDGE_POINT"                head="18:22" col="82:87">
+    <begin>TOLERANCE LIMITS ARE:</begin>
+  </block>
+  <block id="MAX_AR"                head="18:22" col="64:70">
+    <begin>TOLERANCE LIMITS ARE</begin>
+  </block>
+  <block id="GEOM_CK"                head="6:14" col="16:19">
+    <begin>N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O</begin>
+  </block>
+  <block id="STRESS_X"                head="17:24" col="25:34">
+    <begin>N L   S T R E S S E S   I N   H Y P E R E L A S T I C   H E X A H E D R O N   E L E M E N T S</begin>
+  </block>
+  <block id="STRESS_Y"                head="17:24" col="36:46">
+    <begin>N L   S T R E S S E S   I N   H Y P E R E L A S T I C   H E X A H E D R O N   E L E M E N T S</begin>
+  </block>
+  <block id="HOOP_STRESS_NORM_1"    head="1:10" at1_ply="15:18" at2_fiber="22:24" at3_edge="27:33" col="35:47" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( H E X A )</begin>
+  </block>
+  <block id="HOOP_STRESS_NORM_2"    head="1:10" at1_ply="15:18" at2_fiber="22:24" at3_edge="27:33" col="49:61" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( H E X A )</begin>
+  </block>
+  <block id="LCSTRESS_HEXA_S12"    head="7:10" at1_ply="15:18" at2_fiber="22:24" at3_edge="27:33" col="63:75" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( H E X A )</begin>
+  </block>
+  <block id="LCSTRESS_PENTA_N2"    head="7:10" at1_ply="15:18" at2_fiber="22:24" at3_edge="27:33" col="49:61" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="GLUE_FORCE_T1"         head="2:13" col="26:38" >
+    <begin>G L U E  F O R C E S</begin>
+  </block>
+  <block id="GPT_TEMP_C1"           head="4:15" col="25:37" >
+    <begin>G R I D    P O I N T    T E M P E R A T U R E S</begin>
+  </block>
+  <block id="GPT_TEMP_C2"           head="42:53" col="63:75" >
+    <begin>G R I D    P O I N T    T E M P E R A T U R E S</begin>
+  </block>
+  <block id="GPT_TEMP_C3"           head="81:92" col="101:113" >
+    <begin>G R I D    P O I N T    T E M P E R A T U R E S</begin>
+  </block>
+   <block id="I0064_GP_FORCE_TOT_T1"           head="1:12" at1_element="16:26" col="43:55">  
+    <begin>I0064                                    G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+  </block>
+     <block id="I0064_GP_FORCE_TOT_T2"           head="1:12" at1_element="16:26" col="58:70">  
+    <begin>I0064                                    G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+           
+  </block>
+     <block id="I0064_GP_FORCE_TOT_T3"           head="1:12" at1_element="16:26" col="73:85">  
+    <begin>I0064                                    G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+  </block>
+  <block id="GP_FORCE_TOT_T1"           head="1:12" at1_source="30:35" col="43:55">  
+    <begin>G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+  </block>
+  <block id="GP_FORCE_TOT_T2"           head="1:12" at1_source="30:35" col="58:70">  
+    <begin>G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+  </block>
+  <block id="GP_FORCE_TOT_T3"           head="1:12" at1_source="30:35" col="73:85">  
+    <begin>G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+  </block>
+  <block id="GP_FORCE_TOT_R1"           head="1:12" at1_source="30:35" col="88:100">  
+    <begin>G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+  </block>
+  <block id="GP_FORCE_TOT_R2"           head="1:12" at1_source="30:35" col="103:115">  
+    <begin>G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+  </block>
+  <block id="GP_FORCE_TOT_R3"           head="1:12" at1_source="30:35" col="118:130">  
+    <begin>G R I D   P O I N T   F O R C E   B A L A N C E</begin>
+  </block>
+  <block id="STRESS_PYRAM_XX"                head="1:10" at1_point="12:22" col="28:40">
+    <begin>S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S   ( P Y R A M )</begin>
+  </block>
+    <block id="STRESS_PYRAM_YY"                head="1:10" at1_point="12:22" col="28:40">
+        <begin>S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S   ( P Y R A M )</begin>
+  </block>
+  <block id="STRESS_PYRAM_ZZ"                head="1:10" at1_point="12:22" col="28:40">
+      <begin>S T R E S S E S   I N   P Y R A M I D   S O L I D   E L E M E N T S   ( P Y R A M )</begin>
+  </block>
+  <block id="STRESS_PYRAM_VM"                head="6:14" at1_point="29:35"     col="119:131">
+    <begin>S T R E S S E S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="LOAD_VEC_T1"                head="3:14"     col="26:40">
+    <begin>L O A D   V E C T O R</begin>
+  </block>
+  <block id="LOAD_VEC_T2"                head="3:14"     col="41:55">
+    <begin>L O A D   V E C T O R</begin>
+  </block>
+  <block id="LOAD_VEC_T3"                head="3:14"     col="56:70">
+    <begin>L O A D   V E C T O R</begin>
+  </block>
+  <block id="LOAD_VEC_R1"                head="3:14"     col="71:85">
+    <begin>L O A D   V E C T O R</begin>
+  </block>
+  <block id="LOAD_VEC_R2"                head="3:14"     col="86:100">
+    <begin>L O A D   V E C T O R</begin>
+  </block>
+  <block id="LOAD_VEC_R3"                head="3:14"     col="101:115">
+    <begin>L O A D   V E C T O R</begin>
+  </block>
+  <block id="FE_GRAD_X"                head="2:13"     col="30:42">
+    <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D   F L U X E S</begin>
+  </block>
+  <block id="FE_GRAD_Y"                head="2:13"     col="47:59">
+    <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D   F L U X E S</begin>
+  </block>
+  <block id="FE_GRAD_Z"                head="2:13"     col="64:76">
+    <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D   F L U X E S</begin>
+  </block>
+  <block id="FE_FLUX_X"                head="2:13"     col="81:93">
+    <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D   F L U X E S</begin>
+  </block>
+  <block id="FE_FLUX_Y"                head="2:13"     col="98:110">
+    <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D   F L U X E S</begin>
+  </block>
+  <block id="FE_FLUX_Z"                head="2:13"     col="115:127">
+    <begin>F I N I T E   E L E M E N T   T E M P E R A T U R E   G R A D I E N T S   A N D   F L U X E S</begin>
+  </block>
+  <block id="LCSTRESS_QUAD4_N1"    head="2:12" at1_ply="17:20"  col="20:32" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block>
+  <block id="LCSTRAIN_QUAD4_N1"    head="2:12" at1_ply="17:20"  col="20:32" >
+    <begin>S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block>
+  <block id="LCSTRESS_QUAD8_N1"    head="2:12" at1_ply="17:20"  col="20:32" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block>
+  <block id="LCSTRESS_QUAD8_N2"    head="1:10" at1_ply="12:18"  col="33:44" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block>
+  <block id="LCSTRESS_QUADR_N1"    head="2:12" at1_ply="17:20"  col="20:32" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="LCSTRESS_QUADR_N2"    head="2:12" at1_ply="17:20"  col="33:45" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="LCSTRAIN_QUADR_N1"    head="2:12" at1_ply="17:20"  col="20:32" >
+    <begin>S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="LCSTRAIN_QUADR_N2"    head="2:12" at1_ply="17:20"  col="33:45" >
+    <begin>S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="LCSTRESS_TRIA3_N1"    head="2:12" at1_ply="17:20"  col="20:32" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="LCSTRESS_TRIA3_N2"    head="2:12" at1_ply="17:20"  col="33:45" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="LCSTRAIN_TRIA3_N1"    head="2:12" at1_ply="17:20"  col="20:32" >
+    <begin>S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="LCSTRAIN_TRIA3_N2"    head="2:12" at1_ply="17:20"  col="33:45" >
+    <begin>S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="LCSTRESS_TRIA6_N2"    head="2:12" at1_ply="17:20"  col="33:45" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( T R I A 6 )</begin>
+  </block>
+  <block id="LCSTRESS_TRIAR_N2"    head="2:12" at1_ply="17:20"  col="33:45" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="LCSTRAIN_TRIAR_N2"    head="2:12" at1_ply="17:20"  col="33:45" >
+    <begin>S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="LCSTRESS_TRIAR_N1"    head="2:12" at1_ply="17:20"  col="20:32" >
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  
+  <block id="OBJ_MAX"    head="13:21" at1_obj="58:71"  col="127:131" >
+    <begin>OBJECTIVE AND MAXIMUM CONSTRAINT HISTORY</begin>
+  </block>
+  <block id="GLUE_FORCE_T1"         head="2:13" col="26:38" >
+     <begin>G L U E  F O R C E S</begin>
+  </block>
+  <block id="GPT_TEMP_C1"           head="4:15" col="25:37" >
+     <begin>G R I D    P O I N T    T E M P E R A T U R E S</begin>
+  </block>
+  <block id="BEND_MOMENT_A"           head="4:15" col="17:30" >
+       <begin>F O R C E S   I N   B A R   E L E M E N T S         ( C B A R )</begin>
+  </block>
+  <block id="BEND_MOMENT_B"           head="4:15" col="45:59" >
+         <begin>F O R C E S   I N   B A R   E L E M E N T S         ( C B A R )</begin>
+  </block>
+  <block id="BEND_MOMENT_AGRID"           head="8:17" at1_ply="18:20" col="30:42" >
+           <begin>S T R E S S E S   I N   B E A M   E L E M E N T S</begin>
+  </block>
+  <block id="CFORC_BUSH_MX"               head="15:28" col="75:88" complex="1" >
+           <begin>C O M P L E X   F O R C E S   I N   B U S H   E L E M E N T S   ( C B U S H )</begin>
+  </block>
+  <block id="STRAIN_CONROD_AXC1"          head="2:13"  col="17:29">
+    <begin>S T R A I N S   I N   R O D   E L E M E N T S      ( C O N R O D )</begin>
+  </block>
+  <block id="STRAIN_CONROD_AXC2"          head="66:78"  col="82:94">
+    <begin>S T R A I N S   I N   R O D   E L E M E N T S      ( C O N R O D )</begin>
+  </block>
+  <block id="STRAIN_CROD_AXC1"            head="2:13"  col="17:29">
+    <begin>S T R A I N S   I N   R O D   E L E M E N T S      ( C R O D )</begin>
+  </block>
+  <block id="STRAIN_CROD_AXC2"            head="66:78"  col="82:94">
+    <begin>S T R A I N S   I N   R O D   E L E M E N T S      ( C R O D )</begin>
+  </block>
+  <block id="STRAIN_CTUBE_AXC1"           head="2:13"  col="17:29">
+    <begin>S T R A I N S    I N   R O D   E L E M E N T S      ( C T U B E )</begin>
+  </block>
+  <block id="STRAIN_CTUBE_AXC2"           head="66:78"  col="82:94">
+    <begin>S T R A I N S    I N   R O D   E L E M E N T S      ( C T U B E )</begin>
+  </block>
+  <block id="HEATFL_HBDY_RAD"           head="19:24"  col="84:97">
+    <begin>H E A T   F L O W   I N T O   H B D Y   E L E M E N T S   (CHBDY)</begin>
+  </block>
+  <block id="NLSTRESS_HEXA_EQ_1"    head="2:9" at1_grid="18:23" col="95:106" >
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLSTRESS_HEXA_EQ_2"    head="2:11" at1_grid="18:23" col="95:106" >
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLSTRESS_TRIA3_EQ"      head="2:11" at1_fibd="13:28" col="89:101">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S      ( T R I A 3 )</begin>
+  </block>
+  <block id="NLSTRESS_TETRA_EQ_1"      head="3:9" at1_point="18:23" col="97:108">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T E T R A H E D R O N   S O L I D   E L E M E N T S   ( T E T R A )</begin>
+  </block>
+  <block id="NLSTRAIN_TETRA_X"      head="3:9" at1_point="18:23" col="24:34" complex="1">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T E T R A H E D R O N   S O L I D   E L E M E N T S   ( T E T R A )</begin>
+  </block>
+  <block id="NLSTRAIN_TETRA_Y"      head="3:9" at1_point="18:23" col="36:46" complex="1">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T E T R A H E D R O N   S O L I D   E L E M E N T S   ( T E T R A )</begin>
+  </block>
+  <block id="NLSTRESS_CROD_EQ_1"      head="5:13" col="38:53">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   R O D   E L E M E N T S      ( C R O D )</begin>
+  </block> 
+  <block id="NLSTRESS_QUADN8_EQ"      head="5:13" at1_grid="15:21" col="82:96">
+    <begin>S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( C P L S T N 8 )</begin>
+  </block>
+  <block id="NLSTRESS_HEXA_NLELAS"    head="2:9" at1_grid="18:23" col="109:120" >
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLSTRESS_CT6_EQ_1"      head="8:11" at1_point="22:28" col="89:103">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   C T R A X 6   E L E M E N T S</begin>
+  </block>
+  <block id="NLSTRESS_HEXA_CS"    head="2:9" at1_grid="18:23" col="121:130" >
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLSTRESS_TETRA_PS"      head="3:9" at1_point="18:23" col="107:118">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T E T R A H E D R O N   S O L I D   E L E M E N T S   ( T E T R A )</begin>
+  </block>
+  <block id="FORCE_CBEAM_PL1"      head="2:12" at1_grid="15:19" col="30:42">
+    <begin>F O R C E S   I N   B E A M   E L E M E N T S        ( C B E A M )</begin>
+  </block>
+  <block id="STRESS_CBEAM_SXC_A0021B"      head="2:12" at1_grid="15:19" col="30:42">
+    <begin>A0021B                           S T R E S S E S   I N   B E A M   E L E M E N T S        ( C B E A M )</begin>
+  </block>
+  <block id="DISP_R3"                head="2:16" col="101:115">
+    <begin>D I S P L A C E M E N T   V E C T O R</begin>
+  </block>
+  <block id="SKEW_ANGLE_S"                head="0:0" col="80:86">
+    <begin>PRODUCED SMALLEST SKEW ANGLE       OF</begin>
+  </block>
+  <block id="TAPER_RATIO_L"                head="0:0" col="80:86">
+    <begin>PRODUCED LARGEST  TAPER RATIO      OF</begin>
+  </block>
+  <block id="INTERIOR_ANGLE_L"                head="0:0" col="80:86">
+    <begin>PRODUCED LARGEST  INTERIOR ANGLE   OF</begin>
+  </block>
+  <block id="INTERIOR_ANGLE_S"                head="0:0" col="80:86">
+    <begin>PRODUCED SMALLEST INTERIOR ANGLE   OF</begin>
+  </block>
+  <block id="EDGE_POINT_LR"                head="0:0" col="80:86">
+    <begin>PRODUCED SMALLEST EDGE POINT LR    OF</begin>
+  </block>
+  <block id="ASPECT_RATIO_L"                head="0:0" col="80:86">
+    <begin>PRODUCED LARGEST  ASPECT RATIO     OF</begin>
+  </block>
+  <block id="SPC_T1"                head="2:13" col="25:39">
+    <begin>F O R C E S   O F   S I N G L E - P O I N T   C O N S T R A I N T</begin>
+  </block>
+  <block id="SPC_T2"                head="2:13" col="40:54">
+    <begin>F O R C E S   O F   S I N G L E - P O I N T   C O N S T R A I N T</begin>
+  </block>
+  <block id="SPC_T3"                head="2:13" col="55:68">
+    <begin>F O R C E S   O F   S I N G L E - P O I N T   C O N S T R A I N T</begin>
+  </block>
+  <block id="FORCE_CBEAM_AX"      head="15:19" col="88:100">
+    <begin>F O R C E S   I N   B E A M   E L E M E N T S        ( C B E A M )</begin>
+  </block>
+  <block id="R_SHEAR_S3"           head="4:10"  col="104:116">
+    <begin>C O M P L E X   S T R E S S E S   I N   C P L S T S 3    E L E M E N T S</begin>
+  </block>
+  <block id="R_SHEAR_S4"           head="3:10"  col="104:116">
+    <begin>C O M P L E X   S T R E S S E S   I N   C P L S T S 4    E L E M E N T S</begin>   
+  </block> 
+  <block id="R_SHEAR_S6"           head="4:10"  col="104:116">
+    <begin>C O M P L E X   S T R E S S E S   I N   C P L S T S 6    E L E M E N T S</begin>
+  </block>
+  <block id="R_SHEAR_S8"           head="4:10"  col="104:116">
+    <begin>C O M P L E X   S T R E S S E S   I N   C P L S T S 8    E L E M E N T S</begin>   
+  </block> 
+  <block id="NLSTRAIN_TRIA3_X"      head="2:11" at1_fibd="12:25" col="26:40:1">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S      ( T R I A 3 )</begin>
+  </block>
+  <block id="NLSTRAIN_TRIA3_Y"      head="2:11" at1_fibd="12:25" col="41:55:1">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S      ( T R I A 3 )</begin>
+  </block>
+  <block id="NLSTRESS_TRIA3_EQ_1"      head="2:11" at1_fibd="12:25" col="86:100">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S      ( T R I A 3 )</begin>
+  </block>
+  <block id="THMLSTNHEXA_X"       head="3:11" at1_point="28:34" col="35:48">
+    <begin>T H E R M A L   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="THMLSTNHEXA_Y"       head="3:11" at1_point="28:34" col="49:62">
+    <begin>T H E R M A L   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="THMLSTNHEXA_Z"       head="3:11" at1_point="28:34" col="63:76">
+    <begin>T H E R M A L   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="J_INTEGRAL_Q1"      head="12:20" at1_ring="25:27" col="29:41">
+    <begin>J   I N T E G R A L   V A L U E S   O N   T H E   C R A C K   C O N T O U R S</begin>
+  </block>
+  <block id="J_INTEGRAL_Q2"      head="12:20" at1_ring="25:27" col="43:55">
+    <begin>J   I N T E G R A L   V A L U E S   O N   T H E   C R A C K   C O N T O U R S</begin>
+  </block>
+  <block id="J_INTEGRAL_Q3"      head="12:20" at1_ring="25:27" col="57:69">
+    <begin>J   I N T E G R A L   V A L U E S   O N   T H E   C R A C K   C O N T O U R S</begin>
+  </block>
+  <block id="J_INTEGRAL_Q4"      head="12:20" at1_ring="25:27" col="71:83">
+    <begin>J   I N T E G R A L   V A L U E S   O N   T H E   C R A C K   C O N T O U R S</begin>
+  </block>
+  <block id="J_INTEGRAL_Q5"      head="12:20" at1_ring="25:27" col="85:97">
+    <begin>J   I N T E G R A L   V A L U E S   O N   T H E   C R A C K   C O N T O U R S</begin>
+  </block>
+  <block id="J_INTEGRAL_Q6"      head="12:20" at1_ring="25:27" col="99:111">
+    <begin>J   I N T E G R A L   V A L U E S   O N   T H E   C R A C K   C O N T O U R S</begin>
+  </block>
+  <block id="J_INTEGRAL_Q7"      head="12:20" at1_ring="25:27" col="113:125">
+    <begin>J   I N T E G R A L   V A L U E S   O N   T H E   C R A C K   C O N T O U R S</begin>
+  </block>
+  <block id="THRML_STRN_TRI3_NL_X"      head="3:12" at1_point="29:33" col="35:48">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="ELAS_STRN_TRI3_NL_X"      head="3:12" at1_point="29:33" col="35:48">
+    <begin>E L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+    <block id="THRML_STRN_TRI6_NL_X"      head="3:12" at1_point="29:33" col="35:48">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="ELAS_STRN_TRI6_NL_X"      head="3:12" at1_point="29:33" col="35:48">
+    <begin>E L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="THRML_STRN_QUAD4_NL_X"      head="3:12" at1_point="29:33" col="35:48">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="ELAS_STRN_QUAD4_NL_X"      head="3:12" at1_point="29:33" col="35:48">
+    <begin>E L A S T I C   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+    <block id="THRML_STRN_QUAD8_NL_X"      head="3:12" at1_point="29:33" col="35:48">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="ELAS_STRN_QUAD8_NL_X"      head="3:12" at1_point="29:33" col="35:48">
+    <begin>E L A S T I C   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_PENTA_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="STRESS_PENTA_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="STRESS_PENTA_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="STRESS_TETRA_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="STRESS_TETRA_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="STRESS_QUADX4_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="STRESS_QUADX4_PY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="STRESS_QUADX4_PZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="STRESS_QUADX4_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="TOTSTRN_HEXA_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="TOTSTRN_HEXA_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="TOTSTRN_HEXA_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="TOTSTRN_HEXA_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="TOTSTRN_PENTA_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="TOTSTRN_PENTA_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="TOTSTRN_PENTA_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="TOTSTRN_PENTA_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="TOTSTRN_PYRAM_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="TOTSTRN_PYRAM_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="TOTSTRN_PYRAM_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="TOTSTRN_PYRAM_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="TOTSTRN_TETRA_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="TOTSTRN_TETRA_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="TOTSTRN_TETRA_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="TOTSTRN_TETRA_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="TOTSTRN_QUADX4_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="TOTSTRN_QUADX4_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="TOTSTRN_QUADX4_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="TOTSTRN_QUADX4_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="TOTSTRN_QUADX8_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="TOTSTRN_QUADX8_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="TOTSTRN_QUADX8_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="TOTSTRN_QUADX8_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="TOTSTRN_TRIAX3_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="TOTSTRN_TRIAX3_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="TOTSTRN_TRIAX3_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="TOTSTRN_TRIAX3_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="TOTSTRN_TRIAX6_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="TOTSTRN_TRIAX6_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="TOTSTRN_TRIAX6_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="TOTSTRN_TRIAX6_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN3_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN3_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN3_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN3_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN4_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN4_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN4_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN4_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN6_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN6_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN6_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN6_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN8_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN8_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN8_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTN8_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS3_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS3_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS3_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS3_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS4_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS4_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS4_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS4_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS6_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS6_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS6_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS6_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS8_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS8_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS8_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="TOTSTRN_PLSTS8_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTS4_X"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="STRESS_PLSTS4_Y"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="STRESS_PLSTS4_Z"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="STRESS_PLSTS4_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="STRESS_PYRAM_NORMX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="STRESS_HEXA_NORMX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="STRESS_HEXA_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="STRESS_QUADN4_PX"      head="3:11" at1_point="28:33" col="34:48">
+  <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="ERR_EST_HEXA_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="MAXERR_EST_HEXA_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="MAXERR_EST_HEXA_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="ERR_EST_PENTA_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="MAXERR_EST_PENTA_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="MAXERR_EST_PENTA_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="ERR_EST_PYRAM_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="MAXERR_EST_PYRAM_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="MAXERR_EST_PYRAM_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="ERR_EST_TETRA_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="MAXERR_EST_TETRA_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="MAXERR_EST_TETRA_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="ERR_EST_HEXA_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="ERR_EST_PENTA_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="ERR_EST_PYRAM_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="ERR_EST_TETRA_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="ERR_EST_HEXA_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="ERR_EST_PENTA_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="ERR_EST_PYRAM_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="ERR_EST_TETRA_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+   <block id="ERR_EST_HEXA_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="ERR_EST_PENTA_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="ERR_EST_PYRAM_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="ERR_EST_TETRA_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="ERR_EST_QUADX4_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 4 )</begin>
+  </block>
+  <block id="MAXERR_EST_QUADX4_STRSNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 4 )</begin>
+  </block>
+  <block id="MAXERR_EST_QUADX4_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 4 )</begin>
+  </block>
+  <block id="ERR_EST_QUADX8_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 8 )</begin>
+  </block>
+  <block id="MAXERR_EST_QUADX8_STRSNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 8 )</begin>
+  </block>
+  <block id="MAXERR_EST_QUADX8_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 8 )</begin>
+  </block>
+  <block id="ERR_EST_TRAX3_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 3 )</begin>
+  </block>
+  <block id="MAXERR_EST_TRAX3_STRSNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 3 )</begin>
+  </block>
+  <block id="MAXERR_EST_TRAX3_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 3 )</begin>
+  </block>
+  <block id="ERR_EST_TRAX6_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 6 )</begin>
+  </block>
+  <block id="MAXERR_EST_TRAX6_STRSNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 6 )</begin>
+  </block>
+  <block id="MAXERR_EST_TRAX6_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 6 )</begin>
+  </block>
+   <block id="ERR_EST_QUADX4_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 4 )</begin>
+  </block>
+  <block id="ERR_EST_QUADX8_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 8 )</begin>
+  </block>
+  <block id="ERR_EST_TRAX3_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 3 )</begin>
+  </block>
+  <block id="ERR_EST_TRAX6_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 6 )</begin>
+  </block> 
+  <block id="ERR_EST_QUADX4_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 4 )</begin>
+  </block>
+  <block id="ERR_EST_QUADX4_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 4 )</begin>
+  </block>
+  <block id="ERR_EST_QUADX8_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 8 )</begin>
+  </block>
+  <block id="ERR_EST_QUADX8_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 8 )</begin>
+  </block>
+  <block id="ERR_EST_TRAX3_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 3 )</begin>
+  </block>
+  <block id="ERR_EST_TRAX3_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 3 )</begin>
+  </block>
+  <block id="ERR_EST_TRAX6_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 6 )</begin>
+  </block>
+  <block id="ERR_EST_TRAX6_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN3_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTN3_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTN3_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN3_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN4_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 4 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTN4_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 4 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTN4_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 4 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN4_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 4 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN6_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTN6_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTN6_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN6_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN8_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 8 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTN8_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 8 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTN8_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 8 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN8_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 8 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN3_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN3_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN4_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 4 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN4_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 4 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN6_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN6_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN8_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 8 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTN8_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 8 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS3_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTS3_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTS3_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS3_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS4_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 4 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTS4_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 4 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTS4_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 4 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS4_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 4 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS6_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTS6_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTS6_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS6_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS8_STRSNORM"      head="6:16"  col="48:61">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 8 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTS8_STRNORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 8 )</begin>
+  </block>
+  <block id="MAXERR_EST_PLSTS8_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 8 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS8_STRS"      head="6:16"  col="26:40">
+  <begin>S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 8 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS3_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS3_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS4_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 4 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS4_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 4 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS6_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS6_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS8_STRNENORM"      head="6:16"  col="48:61">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 8 )</begin>
+  </block>
+  <block id="ERR_EST_PLSTS8_STRN"      head="6:16"  col="26:40">
+  <begin>S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTS8_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTS8_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTS8_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTS8_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN3_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN3_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN3_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>S T R E S S E S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN8_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN8_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN8_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN8_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN6_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN6_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN6_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>S T R E S S E S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN6_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN4_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN4_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN4_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_GPLSTN4_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN3_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN3_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN3_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN3_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block> 
+   <block id="TOTSTRN_GPLSTN3_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN3_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T O T A L   S T R A I N S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN3_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T O T A L   S T R A I N S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN3_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block> 
+   <block id="THRMLSTRN_GPLSTN3_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN3_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN3_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN3_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 3 )</begin>
+  </block>  
+  <block id="CREEPSTRN_GPLSTN4_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN4_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN4_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN4_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block> 
+   <block id="TOTSTRN_GPLSTN4_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN4_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN4_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN4_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block> 
+  <block id="THRMLSTRN_GPLSTN4_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN4_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN4_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN4_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>  
+  <block id="CREEPSTRN_GPLSTN6_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN6_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN6_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN6_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block> 
+   <block id="TOTSTRN_GPLSTN6_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN6_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T O T A L   S T R A I N S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN6_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T O T A L   S T R A I N S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN6_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N    T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block> 
+  <block id="THRMLSTRN_GPLSTN6_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN6_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN6_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN6_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( G P L S T N 6 )</begin>
+  </block>  
+  <block id="CREEPSTRN_GPLSTN8_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN8_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN8_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="CREEPSTRN_GPLSTN8_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block> 
+   <block id="TOTSTRN_GPLSTN8_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN8_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN8_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="TOTSTRN_GPLSTN8_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block> 
+  <block id="THRMLSTRN_GPLSTN8_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN8_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN8_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="THRMLSTRN_GPLSTN8_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="CRSTRN_HEXA_XX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="CRSTRN_HEXA_YY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="CRSTRN_HEXA_ZZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="CRSTRN_HEXA_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="CRSTRN_HEXA_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="CRSTRN_HEXA_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="CRSTRN_HEXA_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block> 
+  <block id="PLSTSTRN_TRIA_XX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>P L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="PLSTSTRN_TRIA_YY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>P L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="PLSTSTRN_TRIA_ZZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>P L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="PLSTSTRN_TRIA_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>P L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="PLSTSTRN_TRIA_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>P L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="PLSTSTRN_TRIA_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>P L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="PLSTSTRN_TRIA_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>P L A S T I C   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="PLSTSTRN_HEXA_XX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>P L A S T I C   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="PLSTSTRN_HEXA_YY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>P L A S T I C   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="PLSTSTRN_HEXA_ZZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>P L A S T I C   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="PLSTSTRN_HEXA_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>P L A S T I C   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="PLSTSTRN_HEXA_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>P L A S T I C   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="PLSTSTRN_HEXA_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>P L A S T I C   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="PLSTSTRN_HEXA_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>P L A S T I C   S T R A I N S   I N   H E X A H E D R O N   E L E M E N T S     ( H E X A )</begin>
+  </block> 
+  <block id="NLHEXA_STRS_XSTRN"      head="1:8" at1_point="17:22" complex="1" col="24:34">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLHEXA_STRS_XSTRS"      head="1:8" at1_point="17:22"  col="24:34">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLHEXA_STRS_YSTRN"      head="1:8" at1_point="17:22" complex="1" col="36:46">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLHEXA_STRS_YSTRS"      head="1:8" at1_point="17:22"  col="36:46">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLHEXA_STRS_ZSTRN"      head="1:8" at1_point="17:22" complex="1" col="48:58">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLHEXA_STRS_ZSTRS"      head="1:8" at1_point="17:22" col="48:58">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLHEXA_STRS_EQ"         head="1:8" at1_point="17:22"   col="96:106">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   H E X A H E D R O N   S O L I D   E L E M E N T S     ( H E X A )</begin>
+  </block>
+  <block id="NLPENTA_STRS_XSTRN"      head="1:8" at1_point="17:22" complex="1" col="24:34">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="NLPENTA_STRS_XSTRS"      head="1:8" at1_point="17:22"  col="24:34">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="NLPENTA_STRS_YSTRN"      head="1:8" at1_point="17:22" complex="1" col="36:46">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="NLPENTA_STRS_YSTRS"      head="1:8" at1_point="17:22"  col="36:46">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="NLPENTA_STRS_ZSTRN"      head="1:8" at1_point="17:22" complex="1" col="48:58">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="NLPENTA_STRS_ZSTRS"      head="1:8" at1_point="17:22" col="48:58">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="NLPENTA_STRS_EQ"         head="1:8" at1_point="17:22"   col="96:106">
+    <begin>N O N L I N E A R   S T R E S S E S   I N   P E N T A H E D R O N   S O L I D   E L E M E N T S   ( P E N T A )</begin>
+  </block>
+  <block id="CRSTRN_PENTA_XX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="CRSTRN_PENTA_YY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="CRSTRN_PENTA_ZZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="CRSTRN_PENTA_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="CRSTRN_PENTA_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="CRSTRN_PENTA_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block>
+  <block id="CRSTRN_PENTA_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   P E N T A H E D R O N   E L E M E N T S    ( P E N T A )</begin>
+  </block> 
+  <block id="CRSTRN_PYRAM_XX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="CRSTRN_PYRAM_YY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="CRSTRN_PYRAM_ZZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="CRSTRN_PYRAM_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="CRSTRN_PYRAM_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="CRSTRN_PYRAM_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block>
+  <block id="CRSTRN_PYRAM_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   P Y R A M I D   E L E M E N T S     ( P Y R A M )</begin>
+  </block> 
+  <block id="CRSTRN_TETRA_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="CRSTRN_TETRA_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="CRSTRN_TETRA_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="CRSTRN_TETRA_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="CRSTRN_TETRA_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="CRSTRN_TETRA_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block>
+  <block id="CRSTRN_TETRA_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   T E T R A H E D R O N   E L E M E N T S    ( T E T R A )</begin>
+  </block> 
+  <block id="CRSTRN_PLSTN3_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN3_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN3_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN3_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN3_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN3_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN3_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block> 
+  <block id="CRSTRN_PLSTN4_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN4_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN4_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN4_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN4_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN4_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN4_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block> 
+  <block id="CRSTRN_PLSTN6_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN6_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN6_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN6_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN6_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN6_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN6_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block> 
+  <block id="CRSTRN_PLSTN8_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN8_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN8_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN8_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN8_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN8_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTN8_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block> 
+  <block id="CRSTRN_PLSTS3_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS3_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS3_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS3_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS3_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS3_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS3_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block> 
+  <block id="CRSTRN_PLSTS4_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS4_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS4_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS4_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS4_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS4_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS4_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 4 )</begin>
+  </block> 
+  <block id="CRSTRN_PLSTS6_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS6_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS6_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS6_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS6_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS6_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS6_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block> 
+  <block id="CRSTRN_PLSTS8_X"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS8_Y"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS8_Z"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS8_XY"      head="3:11" at1_point="28:33" col="77:90">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS8_YZ"      head="3:11" at1_point="28:33" col="91:104">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS8_ZX"      head="3:11" at1_point="28:33" col="105:118">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block>
+  <block id="CRSTRN_PLSTS8_EF"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>C R E E P       S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T S 8 )</begin>
+  </block> 
+  <block id="STRESS_QUADX8_PX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="STRESS_QUADX8_PY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="STRESS_QUADX8_PZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="STRESS_QUADX8_PVM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="STRESS_TRAX3_PX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="STRESS_TRAX3_PY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="STRESS_TRAX3_PZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="STRESS_TRAX3_PVM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="STRESS_TRAX6_PX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="STRESS_TRAX6_PY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="STRESS_TRAX6_PZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="STRESS_TRAX6_PVM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="STRESS_PLSTS6_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="STRESS_PLSTS6_NX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="STRESS_PLSTS6_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="STRESS_PLSTS6_NZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="MAXERR_EST_GPLSTN3_STRSN"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S   ( G P L S T N 3 )</begin>
+  </block>
+  <block id="MAXERR_EST_GPLSTN3_ERR"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S   ( G P L S T N 3 )</begin>
+  </block>
+   <block id="MAXERR_EST_GPLSTN4_STRSN"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+  <block id="MAXERR_EST_GPLSTN4_ERR"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 4 )</begin>
+  </block>
+   <block id="MAXERR_EST_GPLSTN6_STRSN"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S   ( G P L S T N 6 )</begin>
+  </block>
+  <block id="MAXERR_EST_GPLSTN6_ERR"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S   ( G P L S T N 6 )</begin>
+  </block>
+    <block id="MAXERR_EST_GPLSTN8_STRSN"      head="6:16"  col="48:61">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="MAXERR_EST_GPLSTN8_ERR"      head="6:16"  col="26:40">
+  <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( G P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTN3_NX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="STRESS_PLSTN3_NY"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="STRESS_PLSTN3_NZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="STRESS_PLSTN3_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="STRESS_PLSTN4_NX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_PLSTN4_NY"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_PLSTN4_NZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_PLSTN4_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 4 )</begin>
+  </block>
+  <block id="STRESS_PLSTN6_NX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_PLSTN6_NY"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_PLSTN6_NZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_PLSTN6_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="STRESS_PLSTN8_NX"      head="3:11" at1_point="28:33" col="34:48">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTN8_NY"      head="3:11" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTN8_NZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTN8_VM"      head="3:11" at1_point="28:33" col="118:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( P L S T N 8 )</begin>
+  </block>
+  <block id="THRMLSTRN_QUADX8_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="THRMLSTRN_QUADX8_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="THRMLSTRN_QUADX8_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block>
+  <block id="THRMLSTRN_QUADX8_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T H E R M A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 8 )</begin>
+  </block> 
+  <block id="THRMLSTRN_TRAX3_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="THRMLSTRN_TRAX3_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="THRMLSTRN_TRAX3_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block>
+  <block id="THRMLSTRN_TRAX3_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 3 )</begin>
+  </block> 
+  <block id="THRMLSTRN_TRAX6_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="THRMLSTRN_TRAX6_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="THRMLSTRN_TRAX6_NZ"      head="3:11" at1_point="28:33" col="63:76">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="THRMLSTRN_TRAX6_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>T H E R M A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block> 
+  <block id="MAXERR_QUADX4_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 4 )</begin>
+  </block>
+  <block id="MAXERR_QUADX4_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 4 )</begin>
+  </block>
+  <block id="MAXERR_QUADX8_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 8 )</begin>
+  </block>
+  <block id="MAXERR_QUADX8_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( Q U A D X 8 )</begin>
+  </block>
+  <block id="MAXERR_TRAX3_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 3 )</begin>
+  </block>
+  <block id="MAXERR_TRAX3_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 3 )</begin>
+  </block>
+  <block id="MAXERR_TRAX6_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 6 )</begin>
+  </block>
+  <block id="MAXERR_TRAX6_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( T R A X 6 )</begin>
+  </block>
+  <block id="MAXERR_PLSTN3_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="MAXERR_PLSTN3_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 3 )</begin>
+  </block>
+  <block id="MAXERR_PLSTN4_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 4 )</begin>
+  </block>
+  <block id="MAXERR_PLSTN4_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 4 )</begin>
+  </block>
+  <block id="MAXERR_PLSTN6_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="MAXERR_PLSTN6_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T N 6 )</begin>
+  </block>
+  <block id="MAXERR_PLSTN8_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 8 )</begin>
+  </block>
+  <block id="MAXERR_PLSTN8_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T N 8 )</begin>
+  </block>
+  <block id="MAXERR_PLSTS3_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="MAXERR_PLSTS3_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="MAXERR_PLSTS4_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 4 )</begin>
+  </block>
+  <block id="MAXERR_PLSTS4_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 4 )</begin>
+  </block>
+  <block id="MAXERR_PLSTS6_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="MAXERR_PLSTS6_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( P L S T S 6 )</begin>
+  </block>
+  <block id="MAXERR_PLSTS8_STRNENORM"      head="6:16"  col="48:61">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 8 )</begin>
+  </block>
+  <block id="MAXERR_PLSTS8_MAX"      head="6:16"  col="26:40">
+  <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S   ( P L S T S 8 )</begin>
+  </block>
+  <block id="STRESS_PLSTS3_VM"      head="3:11" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="STRESS_PLSTS3_NX"      head="3:11" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="STRESS_PLSTS3_NY"      head="3:11" at1_point="28:33" col="49:62">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="STRESS_PLSTS3_NZ"      head="3:11" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( P L S T S 3 )</begin>
+  </block>
+  <block id="FINAL_DESIGN_OBJ"      head="16:24"  col="91:102">
+    <begin>F I N A L  A N A L Y S I S</begin>
+  </block>  
+  <block id="FINAL_DESIGN_VAR"      head="15:21"  col="73:84">
+    <begin>F I N A L  A N A L Y S I S</begin>
+  </block>
+  <block id="STRESS_CHOCK3_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>  
+  <block id="STRESS_CHOCK3_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>
+  <block id="STRESS_CHOCK3_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>
+  <block id="STRESS_CHOCK3_VM"      head="2:13" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK3_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>  
+  <block id="TSTRAIN_CHOCK3_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK3_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK3_VM"      head="2:13" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>
+  <block id="STRESS_CHOCK4_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 4 )</begin>
+  </block>  
+  <block id="STRESS_CHOCK4_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 4 )</begin>
+  </block>
+  <block id="STRESS_CHOCK4_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 4 )</begin>
+  </block>
+  <block id="STRESS_CHOCK4_VM"      head="2:13" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 4 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK4_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 4 )</begin>
+  </block>  
+  <block id="TSTRAIN_CHOCK4_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 4 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK4_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 4 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK4_VM"      head="2:13" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 4 )</begin>
+  </block>
+  <block id="STRESS_CHOCK6_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>  
+  <block id="STRESS_CHOCK6_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>
+  <block id="STRESS_CHOCK6_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>
+  <block id="STRESS_CHOCK6_VM"      head="2:13" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK6_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>  
+  <block id="TSTRAIN_CHOCK6_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK6_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK6_VM"      head="2:13" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>
+  <block id="STRESS_CHOCK8_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 8 )</begin>
+  </block>  
+  <block id="STRESS_CHOCK8_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 8 )</begin>
+  </block>
+  <block id="STRESS_CHOCK8_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 8 )</begin>
+  </block>
+  <block id="STRESS_CHOCK8_VM"      head="2:13" at1_point="28:33" col="119:131">
+    <begin>S T R E S S E S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 8 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK8_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 8 )</begin>
+  </block>  
+  <block id="TSTRAIN_CHOCK8_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 8 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK8_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 8 )</begin>
+  </block>
+  <block id="TSTRAIN_CHOCK8_VM"      head="2:13" at1_point="28:33" col="119:131">
+    <begin>T O T A L   S T R A I N S   I N    Q U A D R I L A T E R A L   E L E M E N T S     ( C H O C K 8 )</begin>
+  </block>
+  <block id="CHOCK3_GAP"      head="6:14" at1_point="25:35" col="38:51">
+    <begin>G A P   O F   C H O C K I N G   E L E M E N T S  ( C H O C K 3 )</begin>
+  </block>
+  <block id="CHOCK4_GAP"      head="6:14" at1_point="25:35" col="38:51">
+    <begin>G A P   O F   C H O C K I N G   E L E M E N T S  ( C H O C K 4 )</begin>
+  </block>
+  <block id="CHOCK6_GAP"      head="6:14" at1_point="25:35" col="38:51">
+    <begin>G A P   O F   C H O C K I N G   E L E M E N T S  ( C H O C K 6 )</begin>
+  </block>
+  <block id="CHOCK8_GAP"      head="6:14" at1_point="25:35" col="38:51">
+    <begin>G A P   O F   C H O C K I N G   E L E M E N T S  ( C H O C K 8 )</begin>
+  </block>
+  <block id="DAMAGE_CPENTZ_D1"      head="7:11" at1_point="33:40" col="44:57">
+    <begin>D A M A G E S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="DAMAGE_CPENTZ_D2"      head="7:11" at1_point="33:40" col="59:72">
+    <begin>D A M A G E S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="DAMAGE_CPENTZ_D3"      head="7:11" at1_point="33:40" col="74:87">
+    <begin>D A M A G E S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="DAMAGE_CHEXZ_D1"      head="7:11" at1_point="33:40" col="44:57">
+    <begin>D A M A G E S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>
+  <block id="DAMAGE_CHEXZ_D2"      head="7:11" at1_point="33:40" col="59:72">
+    <begin>D A M A G E S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>
+  <block id="DAMAGE_CHEXZ_D3"      head="7:11" at1_point="33:40" col="74:87">
+    <begin>D A M A G E S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>
+  <block id="REL_DISP_CPENTZ_RDS1"      head="7:11" at1_grid="13:24" at2_point="28:32" col="37:49">
+    <begin>R E L A T I V E   D I S P L A C E M E N T S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="REL_DISP_CPENTZ_RDS2"      head="7:11" at1_grid="13:24" at2_point="28:32" col="52:64">
+    <begin>R E L A T I V E   D I S P L A C E M E N T S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="REL_DISP_CPENTZ_RDS3"      head="7:11" at1_grid="13:24" at2_point="28:32" col="67:79">
+    <begin>R E L A T I V E   D I S P L A C E M E N T S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="TEN_TRAC_CPENTZ_TS1"      head="7:11" at1_grid="13:24" at2_point="28:32" col="37:49">
+    <begin>T E N S I O N   A N D   T R A C T I O N S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="TEN_TRAC_CPENTZ_TS2"      head="7:11" at1_grid="13:24" at2_point="28:32" col="52:64">
+    <begin>T E N S I O N   A N D   T R A C T I O N S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="TEN_TRAC_CPENTZ_TS3"      head="7:11" at1_grid="13:24" at2_point="28:32" col="67:79">
+    <begin>T E N S I O N   A N D   T R A C T I O N S   I N   C O H E S I V E   E L E M E N T S   ( C P E N T C Z )</begin>
+  </block>
+  <block id="REL_DISP_CHEXZ_RDS1"      head="7:11" at1_grid="13:24" at2_point="28:32" col="37:49">
+    <begin>R E L A T I V E   D I S P L A C E M E N T S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>
+  <block id="REL_DISP_CHEXZ_RDS2"      head="7:11" at1_grid="13:24" at2_point="28:32" col="52:64">
+    <begin>R E L A T I V E   D I S P L A C E M E N T S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>
+  <block id="REL_DISP_CHEXZ_RDS3"      head="7:11" at1_grid="13:24" at2_point="28:32" col="67:79">
+    <begin>R E L A T I V E   D I S P L A C E M E N T S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>
+  <block id="TEN_TRAC_CHEXZ_TS1"      head="7:11" at1_grid="13:24" at2_point="28:32" col="37:49">
+    <begin>T E N S I O N   A N D   T R A C T I O N S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>
+  <block id="TEN_TRAC_CHEXZ_TS2"      head="7:11" at1_grid="13:24" at2_point="28:32" col="52:64">
+    <begin>T E N S I O N   A N D   T R A C T I O N S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>
+  <block id="TEN_TRAC_CHEXZ_TS3"      head="7:11" at1_grid="13:24" at2_point="28:32" col="67:79">
+    <begin>T E N S I O N   A N D   T R A C T I O N S   I N   C O H E S I V E   E L E M E N T S   ( C H E X C Z )</begin>
+  </block>                          
+  <block id="DMG_LC_CPENTALN_D1"      head="7:11" at1_point="36:47" col="49:61">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="DMG_LC_CPENTALN_D2"      head="7:11" at1_point="36:47" col="63:75">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="DMG_LC_CPENTALN_D3"      head="7:11" at1_point="36:47" col="77:89">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="DMG_LC_CPENTALN_D4"      head="7:11" at1_point="36:47" col="91:103">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="DMG_LC_CPENTALN_D5"      head="7:11" at1_point="36:47" col="105:117">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="DMG_LC_CPENTALN_D6"      head="7:11" at1_point="36:47" col="119:131">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="DMG_LC_CHEXALN_D1"      head="7:11" at1_point="36:47" col="49:61">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="DMG_LC_CHEXALN_D2"      head="7:11" at1_point="36:47" col="63:75">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="DMG_LC_CHEXALN_D3"      head="7:11" at1_point="36:47" col="77:89">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="DMG_LC_CHEXALN_D4"      head="7:11" at1_point="36:47" col="91:103">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="DMG_LC_CHEXALN_D5"      head="7:11" at1_point="36:47" col="105:117">
+    <begin>D A M A G E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="DMG_ENERGY_LC_CHEXALN"      head="63:75" col="77:89">
+    <begin>D A M A G E   E N E R G Y   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+	</block>
+  <block id="DMG_ENERGY_LC_CPENTALN"      head="63:75" col="77:89">
+    <begin>D A M A G E   E N E R G Y   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="DMG_STATUS_LC_CHEXALN"      head="63:75" col="77:78">
+    <begin>D A M A G E   S T A T U S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+	</block>
+  <block id="DMG_STATUS_LC_CPENTALN"      head="63:75" col="77:78">
+    <begin>D A M A G E   S T A T U S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CHEXALN_NOR1"      head="7:12" at1_grid="29:33" col="35:47">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CHEXALN_NOR2"      head="7:12" at1_grid="29:33" col="49:61">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CHEXALN_NOR3"      head="7:12" at1_grid="29:33" col="63:75">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+<block id="PLS_STRAIN_CHEXALN_SH12"      head="7:12" at1_grid="29:33" col="77:89">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CHEXALN_SH23"      head="7:12" at1_grid="29:33" col="91:103">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CHEXALN_SH31"      head="7:12" at1_grid="29:33" col="105:117">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CHEXALN_VM"      head="7:12" at1_grid="29:33" col="119:131">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+<block id="PLS_STRAIN_CPENTALN_NOR1"      head="7:12" at1_grid="29:33" col="35:47">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S ( C P E N T A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CPENTALN_NOR2"      head="7:12" at1_grid="29:33" col="49:61">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S ( C P E N T A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CPENTALN_NOR3"      head="7:12" at1_grid="29:33" col="63:75">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S ( C P E N T A L N )</begin>
+  </block>
+<block id="PLS_STRAIN_CPENTALN_SH12"      head="7:12" at1_grid="29:33" col="77:89">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S ( C P E N T A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CPENTALN_SH23"      head="7:12" at1_grid="29:33" col="91:103">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S ( C P E N T A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CPENTALN_SH31"      head="7:12" at1_grid="29:33" col="105:117">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S ( C P E N T A L N )</begin>
+  </block>
+  <block id="PLS_STRAIN_CPENTALN_VM"      head="7:12" at1_grid="29:33" col="119:131">
+    <begin>P L A S T I C   S T R A I N S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S ( C P E N T A L N )</begin>
+  </block>
+  <block id="ACC_INT_C1"      head="9:15" col="27:39" complex="1">
+    <begin>A C O U S T I C   I N T E N S I T Y</begin>
+  </block>
+  <block id="ACC_INT_C2"      head="9:15" col="47:59" complex="1">
+    <begin>A C O U S T I C   I N T E N S I T Y</begin>
+  </block>
+  <block id="ACC_INT_C3"      head="9:15" col="67:79" complex="1">
+    <begin>A C O U S T I C   I N T E N S I T Y</begin>
+  </block>
+  <block id="ACC_VEL_C1"      head="9:15" col="27:39" complex="1">
+    <begin>A C O U S T I C   V E L O C I T Y</begin>
+  </block>
+  <block id="ACC_VEL_C2"      head="9:15" col="47:59" complex="1">
+    <begin>A C O U S T I C   V E L O C I T Y</begin>
+  </block>
+  <block id="ACC_VEL_C3"      head="9:15" col="67:79" complex="1">
+    <begin>A C O U S T I C   V E L O C I T Y</begin>
+  </block>
+  <block id="ACC_POW_AML_REA"      head="3:15" col="27:40">
+    <begin>I0205B                                             A C O U S T I C   P O W E R</begin>
+  </block>
+  <block id="ACC_POW_AML_IMA"      head="3:15" col="44:56">
+    <begin>I0205B                                             A C O U S T I C   P O W E R</begin>
+  </block>
+  <block id="ACC_POW_GROUP_REA"      head="3:15" col="27:40">
+    <begin>I0205A                                             A C O U S T I C   P O W E R</begin>
+  </block>
+  <block id="ACC_POW_GROUP_IMA"      head="3:15" col="44:56">
+    <begin>I0205A                                             A C O U S T I C   P O W E R</begin>
+  </block>
+  <block id="CAM_DIA_SUM_HZ"      head="4:8" col="63:74">
+    <begin>C A M P B E L L   D I A G R A M   S U M M A R Y</begin>
+  </block>
+  <block id="FACE_P1_CCHOCK3"      head="33:42" at1_grid="47:58" at2_grid="65:74" col="77:90">
+    <begin>F A C E   P R E S S U R E S ( C C H O C K 3 )</begin>
+  </block>
+  <block id="FACE_P2_CCHOCK3"      head="33:42" at1_grid="47:58" at2_grid="65:74" col="93:106">
+    <begin>F A C E   P R E S S U R E S ( C C H O C K 3 )</begin>
+  </block>
+  <block id="FACE_P1_CCHOCK4"      head="33:42" at1_grid="47:58" at2_grid="65:74" col="77:90">
+    <begin>F A C E   P R E S S U R E S ( C C H O C K 4 )</begin>
+  </block>
+  <block id="FACE_P2_CCHOCK4"      head="33:42" at1_grid="47:58" at2_grid="65:74" col="93:106">
+    <begin>F A C E   P R E S S U R E S ( C C H O C K 4 )</begin>
+  </block>
+  <block id="FACE_P1_CCHOCK6"      head="33:42" at1_grid="47:58" at2_grid="65:74" col="77:90">
+    <begin>F A C E   P R E S S U R E S ( C C H O C K 6 )</begin>
+  </block>
+  <block id="FACE_P2_CCHOCK6"      head="33:42" at1_grid="47:58" at2_grid="65:74" col="93:106">
+    <begin>F A C E   P R E S S U R E S ( C C H O C K 6 )</begin>
+  </block>
+  <block id="I0345A_BOLT_AXIAL_F"      head="1:16"  col="17:29">
+    <begin>I0345A                                                  B O L T   R E S U L T S</begin>
+  </block>
+  <block id="I0345A_BOLT_SHEAR1"      head="1:16"  col="33:45">
+    <begin>I0345A                                                  B O L T   R E S U L T S</begin>
+  </block>
+  <block id="I0345A_BOLT_SHEAR2"      head="1:16"  col="49:61">
+    <begin>I0345A                                                  B O L T   R E S U L T S</begin>
+  </block>
+  <block id="I0345A_BOLT_MOMENT1"      head="1:16"  col="65:77">
+    <begin>I0345A                                                  B O L T   R E S U L T S</begin>
+  </block>
+  <block id="I0345A_BOLT_MOMENT2"      head="1:16"  col="81:93">
+    <begin>I0345A                                                  B O L T   R E S U L T S</begin>
+  </block>
+  <block id="I0345A_BOLT_AXPRE_STRAIN"      head="1:16"  col="114:126">
+    <begin>I0345A                                                  B O L T   R E S U L T S</begin>
+  </block>
+  <block id="TABLE_DATA_COL1"      head="4:6"  col="17:20">
+    <begin>0RECORD NO.</begin>
+  </block>
+  <block id="CRI_SPD_SYNC"      head="35:40"  col="45:56">
+    <begin>C R I T I C A L   S P E E D S   F R O M   S Y N C R O N O U S   O P T I O N</begin>
+  </block>
+    <block id="CRI_SPD_SYNC_ANA"      head="35:40"  col="45:56">
+    <begin>CRITICAL SPEEDS FROM SYNCHRONOUS ANALYSIS</begin>
+  </block>
+  <block id="FOR_WHL_RES"      head="35:40"  col="45:56">
+    <begin>FORWARD WHIRL RESONANCE</begin>
+  </block>
+  <block id="BAK_WHL_RES"      head="35:40"  col="45:56">
+    <begin>BACKWARD WHIRL RESONANCE</begin>
+  </block>
+  <block id="WHL_RES"      head="35:40"  col="45:56">
+    <begin>WHIRL RESONANCE</begin>
+  </block>
+  <block id="INSTABILITY"      head="35:40"  col="45:56">
+    <begin>INSTABILITIES                  SOLUTION      ROTOR SPEED     WHIRL</begin>
+  </block>
+  <block id="TOT_ABS_MOD_CON_REAL"      head="8:20" col="27:39">
+    <begin>I0195A                       C O M P L E X    A B S O L U T E    M O D A L   C O N T R I B U T I O N S</begin>
+  </block>
+  <block id="TOT_ABS_PAN_CON_REAL"      head="8:20" col="27:39">
+    <begin>C O M P L E X    A B S O L U T E   P A N E L   C O N T R I B U T I O N S</begin>
+  </block>
+  <block id="MAX_STERGY_ERR_TRIA_CHOCK3"      head="6:15" col="26:38">
+    <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>
+  <block id="MAX_STERGY_ERR_QUAD_CHOCK4"      head="6:15" col="26:38">
+    <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( C H O C K 4 )</begin>
+  </block>
+  <block id="MAX_STERGY_ERR_TRIA_CHOCK6"      head="6:15" col="26:38">
+    <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>
+  <block id="MAX_STERGY_ERR_QUAD_CHOCK8"      head="6:15" col="26:38">
+    <begin>M A X   S T R A I N    E N E R G Y   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( C H O C K 8 )</begin>
+  </block>
+  <block id="MAX_STRESS_ERR_TRIA_CHOCK3"      head="6:15" col="26:38">
+    <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( C H O C K 3 )</begin>
+  </block>
+  <block id="MAX_STRESS_ERR_QUAD_CHOCK4"      head="6:15" col="26:38">
+    <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( C H O C K 4 )</begin>
+  </block>
+  <block id="MAX_STRESS_ERR_TRIA_CHOCK6"      head="6:15" col="26:38">
+    <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   T R I A N G U L A R   E L E M E N T S    ( C H O C K 6 )</begin>
+  </block>
+  <block id="MAX_STRESS_ERR_QUAD_CHOCK8"      head="6:15" col="26:38">
+    <begin>M A X   S T R E S S   E R R - E S T I M A T O R   O F   Q U A D R I L A T E R A L   E L E M E N T S    ( C H O C K 8 )</begin>
+  </block>
+  <block id="INIT_STRN_TRAX6_NX"      head="2:13" at1_point="28:33" col="35:47">
+    <begin>I N I T I A L   S T R A I N S   I N          T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="INIT_STRN_TRAX6_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>I N I T I A L   S T R A I N S   I N          T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="INIT_STRN_TRAX6_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>I N I T I A L   S T R A I N S   I N          T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block> 
+  <block id="INIT_STRN_TRAX6_SXY"     head="2:13" at1_point="28:33" col="77:89">
+    <begin>I N I T I A L   S T R A I N S   I N          T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="INIT_STRN_TRAX6_SYZ"     head="2:13" at1_point="28:33" col="91:103">
+    <begin>I N I T I A L   S T R A I N S   I N          T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block>
+  <block id="INIT_STRN_TRAX6_SZX"    head="2:13" at1_point="28:33" col="105:117">
+    <begin>I N I T I A L   S T R A I N S   I N          T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block> 
+  <block id="INIT_STRN_TRAX6_VM"    head="2:13" at1_point="28:33" col="119:131">
+    <begin>I N I T I A L   S T R A I N S   I N          T R I A N G U L A R   E L E M E N T S     ( T R A X 6 )</begin>
+  </block> 
+  <block id="INIT_STRN_QUAX4_NX"      head="2:13" at1_gausgrid="22:25" at2_point="28:33" col="35:47">
+    <begin>I N I T I A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="INIT_STRN_QUAX4_NY"      head="2:13" at1_point="28:33" col="49:61">
+    <begin>I N I T I A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="INIT_STRN_QUAX4_NZ"      head="2:13" at1_point="28:33" col="63:75">
+    <begin>I N I T I A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block> 
+  <block id="INIT_STRN_QUAX4_SXY"     head="2:13" at1_point="28:33" col="77:89">
+    <begin>I N I T I A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="INIT_STRN_QUAX4_SYZ"     head="2:13" at1_point="28:33" col="91:103">
+    <begin>I N I T I A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block>
+  <block id="INIT_STRN_QUAX4_SZX"    head="2:13" at1_point="28:33" col="105:117">
+    <begin>I N I T I A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block> 
+  <block id="INIT_STRN_QUAX4_VM"    head="2:13" at1_point="28:33" col="119:131">
+    <begin>I N I T I A L   S T R A I N S   I N   Q U A D R I L A T E R A L   E L E M E N T S     ( Q U A D X 4 )</begin>
+  </block> 
+  <block id="MUMAT_STAT_VAR"       head="8:18" at1_grid="22:31"  at2_var="39:50" col="53:77">
+    <begin>M U M A T   S T A T E   V A R I A B L E S</begin>
+  </block>
+  <block id="THM_STRN_TRIA6_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>T H E R M A L   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block> 
+  <block id="THM_STRN_TRIAR_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>T H E R M A L   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block> 
+  <block id="THM_STRN_QUADR_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="THM_STRN_QUAD8_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block> 
+  <block id="THM_STRN_QUAD4_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block> 
+  <block id="ELA_STRN_TRIA6_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block> 
+  <block id="ELA_STRN_TRIAR_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block> 
+  <block id="ELA_STRN_QUADR_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="ELA_STRN_QUAD8_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block> 
+  <block id="ELA_STRN_QUAD4_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="118:131">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block>
+  <block id="THM_STRN_TRIA6_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>T H E R M A L   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block> 
+  <block id="THM_STRN_TRIAR_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>T H E R M A L   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block> 
+  <block id="THM_STRN_QUADR_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="THM_STRN_QUAD8_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block> 
+  <block id="THM_STRN_QUAD4_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block> 
+  <block id="ELA_STRN_TRIA6_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block> 
+  <block id="ELA_STRN_TRIAR_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block> 
+  <block id="ELA_STRN_QUADR_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="ELA_STRN_QUAD8_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block> 
+  <block id="ELA_STRN_QUAD4_SHXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="64:77">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block>
+  <block id="THM_STRN_TRIA6_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>T H E R M A L   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block> 
+  <block id="THM_STRN_TRIAR_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>T H E R M A L   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block> 
+  <block id="THM_STRN_QUADR_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="THM_STRN_QUAD8_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block> 
+  <block id="THM_STRN_QUAD4_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block> 
+  <block id="ELA_STRN_TRIA6_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block> 
+  <block id="ELA_STRN_TRIAR_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block> 
+  <block id="ELA_STRN_QUADR_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="ELA_STRN_QUAD8_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block> 
+  <block id="ELA_STRN_QUAD4_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="37:49">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block>
+  <block id="THM_STRN_TRIA6_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>T H E R M A L   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block> 
+  <block id="THM_STRN_TRIAR_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>T H E R M A L   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block> 
+  <block id="THM_STRN_QUADR_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="THM_STRN_QUAD8_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block> 
+  <block id="THM_STRN_QUAD4_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>T H E R M A L   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block> 
+  <block id="ELA_STRN_TRIA6_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+  </block> 
+  <block id="ELA_STRN_TRIAR_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block> 
+  <block id="ELA_STRN_QUADR_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="ELA_STRN_QUAD8_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+  </block> 
+  <block id="ELA_STRN_QUAD4_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="50:63">
+    <begin>E L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 4 )</begin>
+  </block>
+  <block id="ELA_STRN_TRIA3_NX"       head="3:11"  at1_fiber="12:24" col="30:42">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="ELA_STRN_TRIA3_NY"       head="3:11"  at1_fiber="12:24" col="43:57">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="ELA_STRN_TRIA3_SHXY"       head="3:11"  at1_fiber="12:24" col="58:72">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="ELA_STRN_TRIA3_VM"       head="3:11"  at1_fiber="12:24" col="116:130">
+    <begin>E L A S T I C   S T R A I N S  I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="CRADEN_HEXA"      head="40:47" at1_ply="53:56" at2_edge="71:77" col="87:100">
+    <begin>C R A C K   D E N S I T Y   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C H E X A L N )</begin>
+  </block>
+  <block id="CRADEN_PENTA"      head="40:47" at1_ply="53:56" at2_edge="71:77" col="87:100">
+    <begin>C R A C K   D E N S I T Y   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C P E N T A L N )</begin>
+  </block>
+  <block id="COMP_ACC_P1"      head="1:15" col="26:38" complex="1">
+    <begin>C O M P L E X   A C O U S T I C   P R E S S U R E</begin>
+  </block>
+  <block id="COMP_ACC_P2_DEG"      head="1:15" col="41:53" complex="1">
+    <begin>C O M P L E X   A C O U S T I C   P R E S S U R E</begin>
+  </block>
+  <block id="COMP_ACC_P2"      head="1:15" col="41:53" complex="1">
+    <begin>C O M P L E X   A C O U S T I C   P R E S S U R E</begin>
+  </block>
+  <block id="COMP_ACC_P3"      head="1:15" col="56:68" complex="1">
+    <begin>C O M P L E X   A C O U S T I C   P R E S S U R E</begin>
+  </block>
+  <block id="COMP_ACC_P4"      head="1:15" col="71:83" complex="1">
+    <begin>C O M P L E X   A C O U S T I C   P R E S S U R E</begin>
+  </block>
+  <block id="COMP_ACC_P5"      head="1:15" col="86:98" complex="1">
+    <begin>C O M P L E X   A C O U S T I C   P R E S S U R E</begin>
+  </block>
+  <block id="COMP_ACC_P6"      head="1:15" col="101:113" complex="1">
+    <begin>C O M P L E X   A C O U S T I C   P R E S S U R E</begin>
+  </block>
+  <block id="STRESS_CBAR_SXC"      head="20:24" at1_grid="29:34" col="37:49">
+    <begin>S T R E S S E S   I N    B A R   E L E M E N T S   ( C B A R )</begin>
+  </block>
+  <block id="STRESS_CBAR_SXD"      head="20:24" at1_grid="29:34" col="52:64">
+    <begin>S T R E S S E S   I N    B A R   E L E M E N T S   ( C B A R )</begin>
+  </block>
+  <block id="STRESS_CBAR_SXE"      head="20:24" at1_grid="29:34" col="67:79">
+    <begin>S T R E S S E S   I N    B A R   E L E M E N T S   ( C B A R )</begin>
+  </block>
+  <block id="STRESS_CBAR_SXF"      head="20:24" at1_grid="29:34" col="82:94">
+    <begin>S T R E S S E S   I N    B A R   E L E M E N T S   ( C B A R )</begin>
+  </block>
+  <block id="STRESS_CBEAM_SXC"      head="20:24" at1_grid="29:34" col="37:49">
+    <begin>S T R E S S E S   I N    B E A M   E L E M E N T S   ( C B E A M )</begin>
+  </block>
+  <block id="STRESS_CBEAM_SXD"      head="20:24" at1_grid="29:34" col="52:64">
+    <begin>S T R E S S E S   I N    B E A M   E L E M E N T S   ( C B E A M )</begin>
+  </block>
+  <block id="STRESS_CBEAM_SXE"      head="20:24" at1_grid="29:34" col="67:79">
+    <begin>S T R E S S E S   I N    B E A M   E L E M E N T S   ( C B E A M )</begin>
+  </block>
+  <block id="STRESS_CBEAM_SXF"      head="20:24" at1_grid="29:34" col="82:94">
+    <begin>S T R E S S E S   I N    B E A M   E L E M E N T S   ( C B E A M )</begin>
+  </block>
+  <block id="STRAIN_CBAR_SXC"      head="20:24" at1_grid="29:34" col="37:49">
+    <begin>T O T A L   S T R A I N S   I N    B A R   E L E M E N T S   ( C B A R )</begin>
+  </block>
+  <block id="STRAIN_CBAR_SXD"      head="20:24" at1_grid="29:34" col="52:64">
+    <begin>T O T A L   S T R A I N S   I N    B A R   E L E M E N T S   ( C B A R )</begin>
+  </block>
+  <block id="STRAIN_CBAR_SXE"      head="20:24" at1_grid="29:34" col="67:79">
+    <begin>T O T A L   S T R A I N S   I N    B A R   E L E M E N T S   ( C B A R )</begin>
+  </block>
+  <block id="STRAIN_CBAR_SXF"      head="20:24" at1_grid="29:34" col="82:94">
+    <begin>T O T A L   S T R A I N S   I N    B A R   E L E M E N T S   ( C B A R )</begin>
+  </block>
+  <block id="STRAIN_CBEAM_SXC"      head="20:24" at1_grid="29:34" col="37:49">
+    <begin>T O T A L   S T R A I N S   I N    B E A M   E L E M E N T S   ( C B E A M )</begin>
+  </block>
+  <block id="STRAIN_CBEAM_SXD"      head="20:24" at1_grid="29:34" col="52:64">
+    <begin>T O T A L   S T R A I N S   I N    B E A M   E L E M E N T S   ( C B E A M )</begin>
+  </block>
+  <block id="STRAIN_CBEAM_SXE"      head="20:24" at1_grid="29:34" col="67:79">
+    <begin>T O T A L   S T R A I N S   I N    B E A M   E L E M E N T S   ( C B E A M )</begin>
+  </block>
+  <block id="STRAIN_CBEAM_SXF"      head="20:24" at1_grid="29:34" col="82:94">
+    <begin>T O T A L   S T R A I N S   I N    B E A M   E L E M E N T S   ( C B E A M )</begin>
+  </block>
+  <block id="FORCE_CBAR_BM1"       head="05:13" at1_grid="15:22" col="24:38">
+    <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+  <block id="FORCE_CBAR_BM2"       head="05:13" at1_grid="15:22" col="40:52">
+    <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+  <block id="FORCE_CBAR_WS1"       head="05:13" at1_grid="15:22" col="55:67">
+    <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+  <block id="FORCE_CBAR_WS2"       head="05:13" at1_grid="15:22" col="69:81">
+    <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+    <block id="FORCE_CBAR_WS1"       head="05:13" at1_grid="15:22" col="84:96">
+  <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+  <block id="FORCE_CBAR_WS2"       head="05:13" at1_grid="15:22" col="69:81">
+    <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+    <block id="FORCE_CBAR_AF"      head="05:13" at1_grid="15:22" col="84:96">
+  <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+  <block id="FORCE_CBAR_TRQ"      head="12:18" at1_grid="15:22" col="99:111">
+    <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+  <block id="FORCE_CBAR_WTRQ"      head="12:18" at1_grid="15:22" col="114:126">
+    <begin>F O R C E S   I N   B A R   E L E M E N T S      ( C B A R )</begin>
+  </block>
+    <block id="OUT_MTMD20_SUM"      head="3:15" col="94:104">
+    <begin>OUTPUT FROM MTMD20 IS AS FOLLOWS</begin>
+  </block>  
+	<block id="STRESS_TRIAR_VM" head="3:11" at1_grid="12:15" at2_fiber="22:33" col="119:131">
+		<begin>S T R E S S E S    I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+	</block>
+	<block id="STRESS_TRIA6_A0343B_VM" head="3:11" at1_grid="12:15" at2_fiber="22:33" col="119:131">
+		<begin>A0343B                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 6 )</begin>
+	</block>
+	<block id="STRESS_QUADR_A0346B_VM" head="3:11" at1_grid="12:15" at2_fiber="22:33" col="119:131">
+		<begin>A0346B                 S T R E S S E S    I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+	</block>
+	<block id="STRESS_QUAD8_A0344B_VM" head="3:11" at1_grid="12:15" at2_fiber="22:33" col="119:131">
+		<begin>A0344B                 S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D 8 )</begin>
+	</block>
+  <block id="TRANS_ACC_POW_REAL"      head="3:15" col="27:40">
+    <begin>T R A N S M I T T E D   A C O U S T I C   P O W E R</begin>
+  </block>
+  <block id="TRANS_ACC_POW_IMAG"      head="3:15" col="44:57">
+    <begin>T R A N S M I T T E D   A C O U S T I C   P O W E R</begin>
+  </block>
+    <block id="INC_ACC_POW_REAL"      head="3:15" col="27:40">
+    <begin>I N C I D E N T   A C O U S T I C   P O W E R</begin>
+  </block>
+  <block id="INC_ACC_POW_IMAG"      head="3:15" col="44:57">
+    <begin>I N C I D E N T   A C O U S T I C   P O W E R</begin> 
+  </block>
+  <block id="FRC_MPC_T1"      head="3:15" col="26:38">
+    <begin>F O R C E S   O F   M U L T I P O I N T   C O N S T R A I N T</begin>
+  </block>  
+    <block id="FRC_MPC_T2"      head="3:15" col="40:53">
+    <begin>F O R C E S   O F   M U L T I P O I N T   C O N S T R A I N T</begin>
+  </block>  
+    <block id="FRC_MPC_T3"      head="3:15" col="55:68">
+    <begin>F O R C E S   O F   M U L T I P O I N T   C O N S T R A I N T</begin>
+  </block>
+  <block id="FRC_MPC_R1"      head="3:15" col="70:83">
+    <begin>F O R C E S   O F   M U L T I P O I N T   C O N S T R A I N T</begin>
+  </block>  
+    <block id="FRC_MPC_R2"      head="3:15" col="85:98">
+    <begin>F O R C E S   O F   M U L T I P O I N T   C O N S T R A I N T</begin>
+  </block>  
+    <block id="FRC_MPC_R3"      head="3:15" col="100:113">
+    <begin>F O R C E S   O F   M U L T I P O I N T   C O N S T R A I N T</begin>
+  </block>
+  <block id="DES_VAR_COEFF_RESP"      head="3:18" col="54:65">
+    <begin>DESIGN  VARIABLE  COEFFICIENT</begin>
+  </block> 
+  <block id="JUST_A_TEST"      head="8:20" col="27:39">
+    <begin>NO   BLOCK   AT   ALL</begin>
+  </block>
+  <block id="I0345B_BOLT_AXIAL_F"      head="1:16"  col="17:29">
+    <begin>I0345B                                                  B O L T   R E S U L T S</begin>
+  </block>
+    <block id="FORCE_SPRING_CELAS1"      head="40:48"  col="60:76">
+    <begin>F O R C E S    I N   S P R I N G   E L E M E N T S   ( C E L A S 1 )</begin>
+  </block>
+  <block id="FORCE_SPRING_CELAS2"      head="40:48"  col="60:76">
+    <begin>F O R C E S    I N   S P R I N G   E L E M E N T S   ( C E L A S 2 )</begin>
+  </block>
+  <block id="STRESS_LC_CQUADRL_VM"   head="3:11" at1_ply="15:19" at2_grid="29:39"   col="119:130">
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C Q U A D R L )</begin>
+  </block>  
+  <block id="STRESS_LC_CQUAD8L_VM"   head="3:11" at1_ply="15:19" at2_grid="29:39"   col="119:130">
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C Q U A D 8 L )</begin>
+  </block> 
+  <block id="STRESS_LC_CTRIA6L_VM"   head="3:11" at1_ply="15:19" at2_grid="29:39"   col="119:130">
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C T R I A 6 L )</begin>
+  </block> 
+  <block id="STRESS_LC_CTRIARL_VM"   head="3:11" at1_ply="15:19" at2_grid="29:39"   col="119:130">
+    <begin>S T R E S S E S   I N   L A Y E R E D   C O M P O S I T E   E L E M E N T S   ( C T R I A R L )</begin>
+  </block> 
+<block id="STRESS_CBUSH1D"      head="42:47" col="62:75" >
+  <begin>S T R E S S E S    I N   B U S H 1 D   E L E M E N T S   ( C B U S H 1 D )</begin>
+  </block>
+  <block id="STRESS_CELAS2"      head="42:47" col="62:75" >
+  <begin>S T R E S S E S    I N   S P R I N G   E L E M E N T S   ( C E L A S 2)</begin>
+  </block>
+<block id="STRAIN_PLASTIC_QUADR_NX"       head="11:15" at1_fiber="23:32" col="35:47">
+  <begin>A0346B              P L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="STRAIN_PLASTIC_QUADR_NY"       head="11:15" at1_fiber="23:32" col="49:61">
+  <begin>A0346B              P L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="STRAIN_PLASTIC_QUADR_NZ"       head="11:15" at1_fiber="23:32" col="63:75">
+  <begin>A0346B              P L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="STRAIN_PLASTIC_QUADR_XY"       head="11:15" at1_fiber="23:32" col="77:89">
+  <begin>A0346B              P L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="STRAIN_PLASTIC_QUADR_YZ"       head="11:15" at1_fiber="23:32" col="91:103">
+  <begin>A0346B              P L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="STRAIN_PLASTIC_QUADR_ZX"       head="11:15" at1_fiber="23:32" col="105:117">
+  <begin>A0346B              P L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="STRAIN_PLASTIC_QUADR_VM"       head="11:15" at1_fiber="23:32" col="119:131">
+  <begin>A0346B              P L A S T I C   S T R A I N S  I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+   <block id="STRESS_QUADR_A0099A_NX"      head="2:12" at1_fiber="22:36" col="38:50">
+    <begin>A0099A                 S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="STRESS_QUADR_A0099A_NY"      head="2:12" at1_fiber="23:36" col="51:64">
+    <begin>A0099A                 S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="STRESS_QUADR_A0099A_SXY"      head="2:12" at1_fiber="23:36" col="65:78">
+    <begin>A0099A                 S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+   <block id="STRESS_QUADR_A0099A_MA"      head="2:12" at1_fiber="23:36" col="91:104">
+    <begin>A0099A                 S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="STRESS_QUADR_A0099A_MI"      head="2:12" at1_fiber="23:36" col="105:118">
+    <begin>A0099A                 S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block>
+  <block id="STRESS_QUADR_A0099A_VM"      head="2:12" at1_fiber="23:36" col="119:131">
+    <begin>A0099A                 S T R E S S E S   I N   Q U A D R I L A T E R A L   E L E M E N T S   ( Q U A D R )</begin>
+  </block> 
+  <block id="STRESS_TRIAR_A0125D_NX"      head="2:12" at1_fiber="22:36" col="38:50">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_NY"      head="2:12" at1_fiber="23:36" col="51:64">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_SXY"      head="2:12" at1_fiber="23:36" col="65:78">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+   <block id="STRESS_TRIAR_A0125D_MA"      head="2:12" at1_fiber="23:36" col="91:104">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_MI"      head="2:12" at1_fiber="23:36" col="105:118">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_VM"      head="2:12" at1_fiber="23:36" col="119:131">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_NX"      head="2:12" at1_fiber="22:36" col="38:50">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_NY"      head="2:12" at1_fiber="23:36" col="51:64">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_SXY"      head="2:12" at1_fiber="23:36" col="65:78">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+   <block id="STRESS_TRIAR_A0125D_MA"      head="2:12" at1_fiber="23:36" col="91:104">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_MI"      head="2:12" at1_fiber="23:36" col="105:118">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRESS_TRIAR_A0125D_VM"      head="2:12" at1_fiber="23:36" col="119:131">
+    <begin>A0125D                    S T R E S S E S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A R )</begin>
+  </block>
+  <block id="STRAINS_TRIA3_A9501_NX"      head="2:10"  col="30:43">
+    <begin>A9501                       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="STRAINS_TRIA3_A9501_NY"      head="2:10"  col="45:58">
+    <begin>A9501                       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="STRAINS_TRIA3_A9501_SXY"      head="2:10"  col="60:73">
+    <begin>A9501                       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+   <block id="STRAINS_TRIA3_A9501_MA"      head="2:10"  col="87:100">
+    <begin>A9501                       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="STRAINS_TRIA3_A9501_MI"      head="2:10"  col="103:116">
+    <begin>A9501                       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+  <block id="STRAINS_TRIA3_A9501_VM"      head="2:10"  col="118:130">
+    <begin>A9501                       S T R A I N S   I N   T R I A N G U L A R   E L E M E N T S   ( T R I A 3 )</begin>
+  </block>
+    
+  
+  <block id="STRN_TEN_QUAD_SHELL_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:34" col="35:47">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="49:61">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_NZ"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="63:75">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_SXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:34" col="77:89">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_SYZ"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="91:103">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_SZX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="105:117">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+    <block id="STRN_TEN_QUAD_SHELL_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="119:131">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+    <block id="STRN_TEN_QUAD_SHELL_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:34" col="35:47">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="49:61">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_NZ"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="63:75">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_SXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:34" col="77:89">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_SYZ"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="91:103">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHELL_SZX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="105:117">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+    <block id="STRN_TEN_QUAD_SHELL_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="119:131">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>  
+  <block id="STRS_TEN_QUAD_SHELL_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:34" col="35:47">
+    <begin>A0372B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRS_TEN_QUAD_SHELL_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="49:61">
+    <begin>A0372B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRS_TEN_QUAD_SHELL_NZ"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="63:75">
+    <begin>A0372B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRS_TEN_QUAD_SHELL_SXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:34" col="77:89">
+    <begin>A0372B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRS_TEN_QUAD_SHELL_SYZ"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="91:103">
+    <begin>A0372B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRS_TEN_QUAD_SHELL_SZX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="105:117">
+    <begin>A0372B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+    <block id="STRS_TEN_QUAD_SHELL_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="119:131">
+    <begin>A0372B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="FORCE_TEN_QUAD_SHELL_NX"       head="3:11" at1_grid="14:19"  at2_fiber="22:34" col="35:47">
+    <begin>E0372B                   F O R C E S    I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="FORCE_TEN_QUAD_SHELL_NY"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="49:61">
+    <begin>E0372B                   F O R C E S    I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="FORCE_TEN_QUAD_SHELL_NZ"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="63:75">
+    <begin>E0372B                   F O R C E S    I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="FORCE_TEN_QUAD_SHELL_SXY"       head="3:11" at1_grid="14:19"  at2_fiber="22:34" col="77:89">
+    <begin>E0372B                   F O R C E S    I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="FORCE_TEN_QUAD_SHELL_SYZ"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="91:103">
+    <begin>E0372B                   F O R C E S    I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="FORCE_TEN_QUAD_SHELL_SZX"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="105:117">
+    <begin>E0372B                   F O R C E S    I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+    <block id="FORCE_TEN_QUAD_SHELL_VM"       head="3:11" at1_grid="14:19"  at2_fiber="22:35" col="119:131">
+    <begin>E0372B                   F O R C E S    I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E L L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHEAR_SXY_1"       head="10:19"  col="25:37">
+    <begin>A0373B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E A R  P A N E L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHEAR_SXY_2"       head="47:56"  col="62:74">
+    <begin>A0373B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E A R  P A N E L )</begin>
+  </block>
+  <block id="STRN_TEN_QUAD_SHEAR_SXY_3"       head="84:93"  col="99:111">
+    <begin>A0372B           S T R A I N S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E A R  P A N E L )</begin>
+  </block>
+  
+  <block id="STRS_TEN_QUAD_SHEAR_SXY_1"       head="10:19"  col="25:37">
+    <begin>A0373B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E A R  P A N E L )</begin>
+  </block>
+  <block id="STRS_TEN_QUAD_SHEAR_SXY_2"       head="47:56"  col="62:74">
+    <begin>A0373B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E A R  P A N E L )</begin>
+  </block>
+  <block id="STRS_TEN_QUAD_SHEAR_SXY_3"       head="84:93"  col="99:111">
+    <begin>A0373B         S T R E S S E S   I N   T E N S I O N - O N L Y   Q U A D   E L E M E N T S   ( S H E A R  P A N E L )</begin>
+  </block>
+
+</valcr>
+
+ 
