@@ -6,4 +6,5 @@
 - Multiplies two matrices
 # valcr.py        
 - Creates a GUI that helps select options based on an xml database "data.xml".
+- python valcr.py
 
